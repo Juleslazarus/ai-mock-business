@@ -3,6 +3,9 @@
     padding: 0; 
     margin: 0; 
 }
+html {
+    scroll-behavior: smooth;
+}
 #mockstudiosText {
     transition: all .4s; 
 }
@@ -29,8 +32,13 @@
 }
 @media all and (max-width: 700px) {
    
-    #heroTextCont {
+    #bannerOne {
         width: 100%; 
         justify-content: center;
+        background-size: contain; 
+        margin-bottom: -15em;
+    }
+    #hero2Text {
+        padding: .25em;
     }
 }
