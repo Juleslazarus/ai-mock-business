@@ -6,17 +6,15 @@
 html {
     scroll-behavior: smooth;
 }
-#mockstudiosText {
-    transition: all .4s; 
-}
-#mockstudiosText > p {
-    transition: display .4s; ;
-}
-#mockstudiosText:hover > p {
-    display: inline-block; 
-    opacity: 1; 
+
+#heroBGCont {
+    padding-top: 1em;
+    padding-bottom: 3.8em;
+    background-size: contain; 
 }
 
+#heroContainer {
+}
 
 #bannerOne {
     background-image: url(./images/ai-grad.png); 
@@ -40,5 +38,8 @@ html {
     }
     #hero2Text {
         padding: .25em;
+    }
+    #bannerTwo {
+        background-size: contain; 
     }
 }
